@@ -1,17 +1,18 @@
 footer {
-    position: fixed;
-    background: white;
+    display: flex;
+    border-top: 1px solid #CCCCCC;
     height: 60px;
     width: 100%;
+    background-color: white;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
     bottom: 0;
-    border-top: 1px solid #CCCCCC;
+    position: fixed;
 }
 
-footer p {
-    position: absolute;
+.footText {
     text-align: center;
-    top: 10%;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    display: flex;
+    align-items: center;
 }
